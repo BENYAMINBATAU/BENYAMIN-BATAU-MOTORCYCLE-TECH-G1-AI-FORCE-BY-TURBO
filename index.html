@@ -7,130 +7,88 @@
 
 <style>
 :root{
-    --yamaha-red:#e10600;
-    --dark:#0b0b0b;
-    --card:#111827;
-    --border:#374151;
+--red:#e10600;--dark:#020617;--card:#111827;--border:#374151
 }
 body{
-    margin:0;
-    font-family: "Segoe UI", sans-serif;
-    background: linear-gradient(180deg,#0b0b0b,#020617);
-    color:white;
+margin:0;font-family:Segoe UI,sans-serif;
+background:linear-gradient(180deg,#0b0b0b,#020617);
+color:white
 }
 .header{
-    text-align:center;
-    padding:30px 15px;
-    border-bottom:3px solid var(--yamaha-red);
+text-align:center;padding:28px;border-bottom:3px solid var(--red)
 }
-.header h1{
-    margin:0;
-    font-size:1.4rem;
-    letter-spacing:1px;
-}
-.header p{
-    margin-top:8px;
-    font-size:0.75rem;
-    color:#9ca3af;
-}
+.header h1{margin:0;font-size:1.4rem}
+.header p{font-size:.75rem;color:#9ca3af}
 .container{
-    max-width:900px;
-    margin:auto;
-    padding:25px;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:20px;
+max-width:900px;margin:auto;padding:25px;
+display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px
 }
 .card{
-    background:var(--card);
-    border:1px solid var(--border);
-    border-left:5px solid var(--yamaha-red);
-    border-radius:14px;
-    padding:18px;
-    transition:0.25s;
+background:var(--card);border:1px solid var(--border);
+border-left:5px solid var(--red);
+border-radius:14px;padding:18px;transition:.25s
 }
-.card:hover{
-    transform:translateY(-4px);
-    border-left-color:white;
-}
-.card h3{
-    margin:0 0 10px 0;
-    font-size:1rem;
-}
-.card p{
-    font-size:0.75rem;
-    color:#9ca3af;
-    line-height:1.4;
-}
+.card:hover{transform:translateY(-4px);border-left-color:white}
+.card h3{margin:0 0 8px;font-size:1rem}
+.card p{font-size:.75rem;color:#9ca3af}
 .card a{
-    display:block;
-    margin-top:14px;
-    text-align:center;
-    padding:12px;
-    background:var(--yamaha-red);
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-    border-radius:10px;
+display:block;margin-top:14px;padding:12px;
+background:var(--red);color:white;
+text-decoration:none;font-weight:bold;border-radius:10px;text-align:center
 }
-.footer{
-    text-align:center;
-    font-size:0.7rem;
-    color:#6b7280;
-    padding:20px;
-}
+.footer{text-align:center;font-size:.7rem;color:#6b7280;padding:20px}
 </style>
 </head>
 
 <body>
 
 <div class="header">
-    <h1>BENYAMIN BATAU<br>G1 MOTORCYCLE TECH AI</h1>
-    <p>Dashboard Pembelajaran & Ujian Digital – TSM SMKN 1 Sumarorong</p>
+<h1>BENYAMIN BATAU<br>G1 MOTORCYCLE TECH AI</h1>
+<p>Dashboard Digital Pembelajaran & Ujian TSM – SMKN 1 Sumarorong</p>
 </div>
 
 <div class="container">
 
-    <div class="card">
-        <h3>🏍️ TSM In Game Quiz</h3>
-        <p>Simulasi kuis interaktif berbasis game untuk meningkatkan logika teknis siswa.</p>
-        <a href="https://benyaminbatau.github.io/TSM-IN-GAME-QUIZ/" target="_blank">MASUK</a>
-    </div>
+<div class="card">
+<h3>🏍️ TSM In Game Quiz</h3>
+<p>Simulasi kuis interaktif berbasis game.</p>
+<a href="https://benyaminbatau.github.io/TSM-IN-GAME-QUIZ/" target="_blank">MASUK</a>
+</div>
 
-    <div class="card">
-        <h3>🎨 TSM Paint Quiz</h3>
-        <p>Kuis pengecatan motor dan analisis kesalahan proses finishing.</p>
-        <a href="https://benyaminbatau.github.io/TSM-PAINT-QUIZ/" target="_blank">MASUK</a>
-    </div>
+<div class="card">
+<h3>🎨 TSM Paint Quiz</h3>
+<p>Kuis pengecatan motor dan analisis kesalahan finishing.</p>
+<a href="https://benyaminbatau.github.io/TSM-PAINT-QUIZ/" target="_blank">MASUK</a>
+</div>
 
-    <div class="card">
-        <h3>🎨 Paint Quiz XI TSM</h3>
-        <p>Evaluasi HOTS teknik pengecatan untuk kelas XI TSM.</p>
-        <a href="https://benyaminbatau.github.io/PAINT-QUIZ-XI-TSM/" target="_blank">MASUK</a>
-    </div>
+<div class="card">
+<h3>🎨 Paint Quiz XI TSM</h3>
+<p>Evaluasi HOTS pengecatan kelas XI TSM.</p>
+<a href="https://benyaminbatau.github.io/PAINT-QUIZ-XI-TSM/" target="_blank">MASUK</a>
+</div>
 
-    <div class="card">
-        <h3>🧠 TSM Quiz Rabu</h3>
-        <p>Kuis diagnosis mesin dan troubleshooting terjadwal.</p>
-        <a href="https://benyaminbatau.github.io/TSM-QUIZ-RABU-4-JANUARI-2026/" target="_blank">MASUK</a>
-    </div>
+<div class="card">
+<h3>🧠 TSM Quiz Diagnosa Mesin</h3>
+<p>Kuis troubleshooting dan diagnosa mesin sepeda motor.</p>
+<a href="https://benyaminbatau.github.io/TSM-QUIZ-RABU-4-JANUARI-2026/" target="_blank">MASUK</a>
+</div>
 
-    <div class="card">
-        <h3>📋 Absensi Digital TSM</h3>
-        <p>Sistem absensi online siswa SMKN 1 Sumarorong.</p>
-        <a href="https://benyaminbatau.github.io/TRIAL-ABSENSI-SMKN-1-SUMARORONG-2026/" target="_blank">MASUK</a>
-    </div>
+<div class="card">
+<h3>📋 Absensi Digital</h3>
+<p>Sistem absensi online siswa TSM.</p>
+<a href="https://benyaminbatau.github.io/TRIAL-ABSENSI-SMKN-1-SUMARORONG-2026/" target="_blank">MASUK</a>
+</div>
 
-    <div class="card">
-        <h3>🔥 Spark Plug Diagnosis AI</h3>
-        <p>Analisis warna insulator busi dan indikasi kerusakan mesin.</p>
-        <a href="https://benyaminbatau.github.io/BENYAMIN-BATAU-APP-SPARKPLUG-DIAGNOSIS/" target="_blank">MASUK</a>
-    </div>
+<div class="card">
+<h3>🔥 Spark Plug Diagnosis AI</h3>
+<p>Analisis warna insulator busi & indikasi kerusakan.</p>
+<a href="https://benyaminbatau.github.io/BENYAMIN-BATAU-APP-SPARKPLUG-DIAGNOSIS/" target="_blank">MASUK</a>
+</div>
 
 </div>
 
 <div class="footer">
-    © 2026 Benyamin Batau • Motorcycle Technology Education • Yamaha Racing Inspired
+© 2026 Benyamin Batau • Motorcycle Technology Education
 </div>
 
 </body>
